@@ -1,6 +1,6 @@
 ---
 - name: sample
-  hosts: localhost
+  hosts: awx
   gather_facts: no
   collections:
     - ansible.builtin
