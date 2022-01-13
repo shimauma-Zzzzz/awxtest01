@@ -1,0 +1,9 @@
+---
+- name: sample
+  hosts: localhost
+  gather_facts: no
+  collections:
+    - ansible.builtin
+  tasks:
+    - name: 疎通チェック
+      ping:
